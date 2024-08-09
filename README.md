@@ -2,6 +2,7 @@
 
 ## Descripción
 El módulo **Control de Saldo** permite a los usuarios gestionar los saldos a favor de los clientes dentro del sistema Odoo. Este módulo añade funcionalidades para ingresar, visualizar, y gestionar los saldos disponibles sin tener el módulo de **contabilidad** no dispobible en la versión Community.
+![Logo de Control de Saldo](static/description/icon.png)
 
 ## Características Clave
 - Ingreso de saldo a favor de clientes.
@@ -18,7 +19,25 @@ El módulo **Control de Saldo** permite a los usuarios gestionar los saldos a fa
 2. Reinicia el servidor Odoo.
 3. Activa el módulo desde la interfaz de administración de módulos en Odoo.
 
-   
+## Configuración del Idioma Valenciano
+
+Para utilizar el módulo **Control de Saldo** en Valenciano (Catalán), sigue estos pasos:
+
+1. **Activar el Idioma Valenciano en Odoo:**
+   - Ve a **Configuración** > **Traducciones** > **Idiomas**.
+   - Haz clic en **Activar un Idioma**.
+   - Selecciona **Catalán / Valenciano** (`ca_ES`) y haz clic en **Activar**.
+
+2. **Cambiar el Idioma del Usuario:**
+   - Ve a **Configuración** > **Usuarios y Compañías** > **Usuarios**.
+   - Selecciona tu usuario y cambia el **Idioma** a **Catalán / Valenciano**.
+
+3. **Verificar las Traducciones:**
+   - Navega por el módulo y asegúrate de que las traducciones se muestran correctamente.
+
+El módulo ahora debería estar completamente funcional en Valenciano.
+
+
 ```bash
 # Clone the repository into your addons directory
 git clone https://github.com/tu_usuario/tu_repositorio.git /ruta/a/odoo/addons/saldo_favor
