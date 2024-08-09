@@ -17,3 +17,7 @@ El módulo **Control de Saldo** permite a los usuarios gestionar los saldos a fa
 1. Copia el módulo en la carpeta `addons` de tu instalación de Odoo.
 2. Reinicia el servidor Odoo.
 3. Activa el módulo desde la interfaz de administración de módulos en Odoo.
+   
+```bash
+# Clone the repository into your addons directory
+git clone https://github.com/tu_usuario/tu_repositorio.git /ruta/a/odoo/addons/saldo_favor
