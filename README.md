@@ -21,3 +21,34 @@ El módulo **Control de Saldo** permite a los usuarios gestionar los saldos a fa
 ```bash
 # Clone the repository into your addons directory
 git clone https://github.com/tu_usuario/tu_repositorio.git /ruta/a/odoo/addons/saldo_favor
+
+
+
+saldo_favor/
+├── __init__.py
+├── __manifest__.py
+├── models/
+│   ├── __init__.py
+│   ├── account_move.py
+│   ├── res_partner.py
+│   ├── saldo_favor_receipt.py
+│   ├── saldo_favor_wizard.py
+│   └── sale_order.py
+├── views/
+│   ├── account_move_views.xml
+│   ├── res_partner_views.xml
+│   ├── saldo_favor_menu.xml
+│   ├── saldo_favor_receipt_views.xml
+│   ├── saldo_favor_transaction_views.xml
+│   ├── saldo_favor_wizard_views.xml
+│   └── sale_order_views.xml
+├── security/
+│   ├── saldo_favor_security.xml
+│   └── ir.model.access.csv
+├── static/
+│   └── description/
+│       ├── icon.png
+├── i18n/
+│   └── ca.po
+├── README.md
+└── LICENSE
