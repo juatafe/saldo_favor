@@ -2,7 +2,8 @@
 
 ## Descripción
 El módulo **Control de Saldo** permite a los usuarios gestionar los saldos a favor de los clientes dentro del sistema Odoo. Este módulo añade funcionalidades para ingresar, visualizar, y gestionar los saldos disponibles sin tener el módulo de **contabilidad** no dispobible en la versión Community.
-![Logo de Control de Saldo](static/description/icon.png)
+<img src="static/description/icon.png" alt="Logo de Control de Saldo" width="150"/>
+
 
 ## Características Clave
 - Ingreso de saldo a favor de clientes.
