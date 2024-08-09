@@ -41,7 +41,8 @@ El módulo ahora debería estar completamente funcional en Valenciano.
 
 ```bash
 # Clone the repository into your addons directory
-git clone https://github.com/tu_usuario/tu_repositorio.git /ruta/a/odoo/addons/saldo_favor
+git clone https://github.com/juatafe/saldo_favor.git /ruta/a/odoo/addons/saldo_favor
+
 
 
 
