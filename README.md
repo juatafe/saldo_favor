@@ -80,3 +80,7 @@ saldo_favor/
 # Clone the repository into your addons directory
 git clone https://github.com/tu_usuario/tu_repositorio.git /ruta/a/odoo/addons/saldo_favor
 
+
+
+# A mejorar:
+- Tras ingresar Saldo no se actualiza la entra de cliente, los clientes que no tienen saldo no aparecen en la vista. 
