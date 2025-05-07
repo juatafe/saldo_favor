@@ -1,5 +1,14 @@
 <odoo>
     <data>
+        <!-- Acció per mostrar la llista de clients amb saldo -->
+        <record id="action_saldo_favor_list" model="ir.actions.act_window">
+            <field name="name">Llista de Membres amb a compte</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[('saldo_a_favor', '>', 0)]</field>
+            <field name="view_id" ref="view_partner_tree_saldo_favor"/>
+        </record>
+        
         <!-- Canviem el nom del menú principal -->
         <menuitem id="menu_saldo_favor_root" name="Control de Saldo" sequence="10" action="action_saldo_favor_list"/>
 
@@ -14,14 +23,6 @@
         <!-- Menú per al wizard d’ingrés de saldo -->
         <menuitem id="menu_saldo_favor_wizard" name="Ingressar Saldo" parent="menu_saldo_favor_root" action="action_saldo_favor_wizard" sequence="10"/>
 
-        <!-- Acció per mostrar la llista de clients amb saldo -->
-        <record id="action_saldo_favor_list" model="ir.actions.act_window">
-            <field name="name">Llista de Membres amb a compte</field>
-            <field name="res_model">res.partner</field>
-            <field name="view_mode">tree,form</field>
-            <field name="domain">[('saldo_a_favor', '>', 0)]</field>
-            <field name="view_id" ref="view_partner_tree_saldo_favor"/>
-        </record>
 
         <!-- Menú per a la llista de membres amb saldo -->
         <menuitem id="menu_saldo_favor_list"
